@@ -1,0 +1,3 @@
+function horror:door_key
+function horror:door_password
+function horror:lever_next

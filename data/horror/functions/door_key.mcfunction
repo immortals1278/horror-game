@@ -1,0 +1,3 @@
+execute as @a unless score @s key_used matches 1 if entity @s[nbt={Inventory:[{id:"minecraft:tripwire_hook"}]}] if entity @s[x=1,y=-58,z=17,distance=..2] run setblock 1 -59 17 air
+execute as @a unless score @s key_used matches 1 if entity @s[nbt={Inventory:[{id:"minecraft:tripwire_hook"}]}] if entity @s[x=1,y=-58,z=17,distance=..2] run clear @s minecraft:tripwire_hook 1
+execute as @a unless score @s key_used matches 1 if entity @s[nbt={Inventory:[{id:"minecraft:tripwire_hook"}]}] if entity @s[x=1,y=-58,z=17,distance=..2] run scoreboard players set @s key_used 1

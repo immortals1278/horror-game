@@ -1,0 +1,1 @@
+scoreboard players set @p password_step 0
